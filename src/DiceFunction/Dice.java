@@ -20,6 +20,7 @@ public class Dice {
 		String result = null;
 		if (numberOfSides == 2) {
 			switch(rand) {
+			
 			case 1 : result = "HEAD";
 			break;
 			case 2 : result = "TAIL";
